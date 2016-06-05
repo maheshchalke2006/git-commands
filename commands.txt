@@ -1,0 +1,72 @@
+
+GIT Usage on Local Machine
+
+git checkout master
+
+git pull
+
+git checkout staging
+
+git merge master
+
+git push origin staging
+ 
+
+GIT Command Line:
+ 
+Copy repository to our local machine using below command
+git clone https://{username}@bitbucket.org/{folder name}/{project name}.git
+
+This will clone master branch.
+
+To add staging and production branch, use below command
+git checkout -b staging origin/staging
+git checkout -b production origin/production
+
+To switch head/pointer to specific branch, use below command. For now we are switching head to Staging branch
+git checkout staging
+
+To check which files are added or modified to project folder, use below command
+git status
+
+To point the changes to .git folder or if you want add specific file
+git add .
+OR
+git add {filename}
+
+To commit the changes, use
+git commit -m "{message}"
+
+For specifying your identity, run below commands
+git config --global user.email  {YOUR EMAIL}
+git config --global user.name "{YOUR NAME}"
+
+git config --global user.email  “mahesh.chalke@trigsystems.com”
+git config --global user.name "trig-mahesh"
+ 
+ 
+
+
+
+
+
+
+
+Useful Commands 
+ 
+git clone https://swapsinnovation@bitbucket.org/Admark/onlinet.git
+git checkout master
+git status
+git branch
+git add .
+git commit -m "your commit message"
+git push
+
+
+
+
+git branch
+cd merchat
+git add teset_soap_request.php
+git commit test_soap_request.php -m “VAST API integration – checking ping”
+git push orgin staging
