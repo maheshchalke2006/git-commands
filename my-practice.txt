@@ -1,0 +1,8 @@
+git clone "http://....."
+
+//To check user name of git
+git config --global user.name 
+
+//To change username of git 
+git config --global user.name "Jyotika"
+
