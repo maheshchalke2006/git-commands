@@ -3,6 +3,7 @@ GIT Usage on Local Machine
 
 git checkout master
 
+//To take pull of repository from main repository from Github
 git pull "Git hub url to download project"
 
 git checkout staging
