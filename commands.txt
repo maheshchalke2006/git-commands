@@ -6,6 +6,7 @@ git checkout master
 //To take pull of repository from main repository from Github
 git pull "Git hub url to download project"
 
+//To swith from current branch to staging branch
 git checkout staging
 
 git merge master
