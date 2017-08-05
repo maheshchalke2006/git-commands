@@ -1,6 +1,6 @@
-touch index.html ( Creates a file)
+1. touch index.html ( Creates a file)
 
-git init (Creates .git folder that means initialise the git respository)
+2. git init (Creates .git folder that means initialise the git respository)
 
 git config --global user.name "test" (To set user name for git)
 
