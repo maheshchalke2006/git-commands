@@ -1,0 +1,33 @@
+touch index.html ( Creates a file)
+
+git init (Creates .git folder that means initialise the git respository)
+
+git config --global user.name "test" (To set user name for git)
+
+git config --global user.email "abc@gmail.com" (To set user email for git)
+
+git add index.html (To add file to local index that is stage that file)
+
+git status (To check the staged and unstaged files)
+
+git rm --cached index.html ( To unstage the file)
+
+git add *.html (To add all html files for staging)
+
+git add . (To add all files for staging)
+
+git commit (To commit all files to local respository)
+
+git commit -m "Message" ( To commit all files with message)
+
+touch .gitignore (Create gitignore file)
+
+git branch login ( To create new branch login)
+
+git checkcout login (To switch to login branch)
+
+git merge login ( Merges login branch code to current branch)
+
+git remote add origin http://url of git hub (To add origin of git or bit bucket)
+
+git push -u origin master (Push on origin repository)
