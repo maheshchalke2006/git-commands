@@ -31,3 +31,5 @@ git merge login ( Merges login branch code to current branch)
 git remote add origin http://url of git hub (To add origin of git or bit bucket)
 
 git push -u origin master (Push on origin repository)
+
+// Mahesh added new line to this file
